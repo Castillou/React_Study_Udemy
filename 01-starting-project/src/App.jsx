@@ -1,17 +1,7 @@
-import Header from './components/Header/Header.jsx';
-import CoreConcepts from './components/CoreConcepts.jsx';
-import Examples from './components/Examples.jsx';
-
 function App() {
-    return (
-        <>
-            <Header />
-            <main>
-                <CoreConcepts />
-                <Examples />
-            </main>
-        </>
-    );
+  return (
+    <h1>React Investment Calculator</h1>
+  )
 }
 
-export default App;
+export default App
