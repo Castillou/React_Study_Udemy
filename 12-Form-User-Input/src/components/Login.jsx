@@ -1,6 +1,8 @@
-import { useRef } from 'react';
+import { useRef, useState } from 'react';
 
 export default function Login() {
+	const [emailIsInvalid, setEmailIsInvalid] = useState(false);
+
 	const email = useRef();
 	const password = useRef();
 
@@ -10,10 +12,17 @@ export default function Login() {
 		const enteredEmail = email.current.value;
 		const enteredPassword = password.current.value;
 
-		console.log(enteredEmail, enteredPassword);
+		// email이 @을 포함하고 있는지 검사
+		const emailIsValid = enteredEmail.includes('@');
 
-		// email.current.value =''
-		// => React가 업데이트 하는 것이 아니라 강제로 DOM을 업데이트 하는 것이기 때문에 [지양하는 것을 권장]
+		if (!emailIsValid) {
+			setEmailIsInvalid(true);
+			return;
+		}
+
+		setEmailIsInvalid(false);
+
+		console.log('Sending HTTP Request...');
 	}
 
 	return (
@@ -24,6 +33,9 @@ export default function Login() {
 				<div className="control no-margin">
 					<label htmlFor="email">Email</label>
 					<input id="email" type="email" name="email" ref={email} />
+					<div className="control-error">
+						{emailIsInvalid && <p>Please enter a valid email address.</p>}
+					</div>
 				</div>
 
 				<div className="control no-margin">
@@ -47,4 +59,7 @@ export default function Login() {
   2. form에 onSumit으로 handleSubmit를 전달하게 되면 이 함수는 form 내부에서 발생하는 모든 이벤트의 내용이 담긴 event 객체를 전달받을 수 있음
 
 	3. 위의 enteredEmail, enteredPassword 안에 담긴 ref 객체의 current 값은, 각자 참조하고 있는 DOM element 이다.
+
+	4. email.current.value =''
+	- React가 업데이트 하는 것이 아니라 강제로 DOM을 업데이트 하는 것이기 때문에 [지양하는 것을 권장]
 */
