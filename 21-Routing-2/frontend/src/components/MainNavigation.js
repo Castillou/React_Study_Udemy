@@ -19,21 +19,6 @@ function MainNavigation() {
 							Events
 						</NavLink>
 					</li>
-					<li>
-						<NavLink to="/events/:id" className={activeHandler}>
-							EventDetail
-						</NavLink>
-					</li>
-					<li>
-						<NavLink to="/events/new" className={activeHandler}>
-							NewEvent
-						</NavLink>
-					</li>
-					<li>
-						<NavLink to="/events/id/edit" className={activeHandler}>
-							EditEvent
-						</NavLink>
-					</li>
 				</ul>
 			</nav>
 		</header>
@@ -41,3 +26,5 @@ function MainNavigation() {
 }
 
 export default MainNavigation;
+
+// NavLink: className의 콜백함수의 매개변수로 리액트 라우터가 제공하는 함수를 받을 수 있음 (그냥 Link 태그는 불가)

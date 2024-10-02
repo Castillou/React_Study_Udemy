@@ -1,4 +1,4 @@
-import { useParams } from 'react-router-dom';
+import { useParams, NavLink } from 'react-router-dom';
 
 function EventDetailPage() {
 	const params = useParams();
@@ -6,7 +6,8 @@ function EventDetailPage() {
 	return (
 		<>
 			<h1>This is Event Detail Page</h1>
-			<p>{params.id}</p>
+			<p>Event ID: {params.id}</p>
+			<NavLink to="/events/:id/edit">EditEvent</NavLink>
 		</>
 	);
 }
