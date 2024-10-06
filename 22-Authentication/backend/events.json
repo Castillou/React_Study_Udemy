@@ -1,1 +1,25 @@
-{"events":[{"title":"A new event","image":"https://cdn.muenchen-p.de/fl_progressive,q_65/.imaging/stk/responsive/teaser300/dms/va-2016/muenchner-christkindlmarkt/christkindlmarkt-marienplat-logo-hp/document/christkindlmarkt-marienplat-logo-hp.jpg","date":"2022-10-01","description":"Some awesome event!","id":"2a42fcc4-ea21-4bdd-abf6-c40006dc66a9"}],"users":[{"email":"dasdsa@sdasdasdsa","password":"$2a$12$28l5oOVxfil/ctrt/n8uMOkB/060YHEOaLZOkPYtBmb9dWcsN9VxK","id":"73fc4dea-e594-4578-97b4-60c8147f26bb"},{"email":"test@test.com","password":"$2a$12$29x1bHZCGpS6yl7YUcKiyeqZIBiZGuQ3xzKODT7yuD8yT0LyLR6Lm","id":"8a1149ab-035f-4245-b2d3-c74f6af4571d"}]}
+{
+	"events": [
+		{
+			"title": "Today I'm Paris!",
+			"image": "https://worldstrides.com/wp-content/uploads/2015/07/api-16.jpg",
+			"date": "2024-10-06",
+			"description": "Paris is the beautiful city ever!",
+			"id": "24ecf5a1-06cd-451e-beec-8ac3daa69fb4"
+		},
+		{
+			"title": "New Event!",
+			"image": "https://images.unsplash.com/photo-1542365887-1149961dccc7?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+			"date": "2024-10-06",
+			"description": "New event is arrived!",
+			"id": "50592440-e657-47bc-b195-01fb4c4e05ff"
+		}
+	],
+	"users": [
+		{
+			"email": "test@test.com",
+			"password": "$2a$12$Q6j8t8KVpJPB2xobKY0W0.fM5xVKn38eIeN7DdWaq/Ch.K9dwGCHC",
+			"id": "b8b718ae-ac7b-461d-8ede-b1aa2f5e8b47"
+		}
+	]
+}
