@@ -1,1 +1,32 @@
-{"events":[{"title":"new testdd","image":"https://worldstrides.com/wp-content/uploads/2015/07/api-16.jpg","date":"2024-11-07","description":"dsfsdfsdfsd","id":"e395fe8d-e151-4c03-84c9-c18d1e0799b7"},{"title":"New Food!","image":"https://images.unsplash.com/photo-1542365887-1149961dccc7?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D","date":"2024-10-03","description":"I ate new Food Today!","id":"68529afb-40bc-4f01-b695-1877140b3977"},{"title":"I went to Paris","image":"https://worldstrides.com/wp-content/uploads/2015/07/api-16.jpg","date":"2024-10-03","description":"I went  to Paris Today.\nParis is the best place ever","id":"78fe2d21-13a1-49d8-a649-eb2d07c02d95"},{"id":"e1","title":"A dummy event","date":"2023-02-22","image":"https://blog.hubspot.de/hubfs/Germany/Blog_images/Optimize_Marketing%20Events%20DACH%202021.jpg","description":"Join this amazing event and connect with fellow developers."}]}
+{
+	"events": [
+		{
+			"title": "new testdd",
+			"image": "https://worldstrides.com/wp-content/uploads/2015/07/api-16.jpg",
+			"date": "2024-11-07",
+			"description": "dsfsdfsdfsd",
+			"id": "e395fe8d-e151-4c03-84c9-c18d1e0799b7"
+		},
+		{
+			"title": "New Food!",
+			"image": "https://images.unsplash.com/photo-1542365887-1149961dccc7?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+			"date": "2024-10-03",
+			"description": "I ate new Food Today!",
+			"id": "68529afb-40bc-4f01-b695-1877140b3977"
+		},
+		{
+			"title": "I went to Paris",
+			"image": "https://worldstrides.com/wp-content/uploads/2015/07/api-16.jpg",
+			"date": "2024-10-03",
+			"description": "I went  to Paris Today.\nParis is the best place ever",
+			"id": "78fe2d21-13a1-49d8-a649-eb2d07c02d95"
+		},
+		{
+			"id": "e1",
+			"title": "A dummy event",
+			"date": "2023-02-22",
+			"image": "https://blog.hubspot.de/hubfs/Germany/Blog_images/Optimize_Marketing%20Events%20DACH%202021.jpg",
+			"description": "Join this amazing event and connect with fellow developers."
+		}
+	]
+}
